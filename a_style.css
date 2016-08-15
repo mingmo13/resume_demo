@@ -1,0 +1,41 @@
+.article_main{
+	background: #444 url(img/a2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+#article_banner{
+	height: 300px;
+}
+#article_banner h1{
+	border: none;
+}
+
+#article_banner .inner{
+	top:30px;
+}
+#article_banner button{
+	padding: 10px 12px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+.article_content{
+	background: #8B795E;
+}
+.article_info,article{
+	width: 960px;
+	margin: 0 auto;
+}
+.article_info{
+	font-size: 14px;
+	color: #555;
+	padding: 12px 0;
+}
+article{
+	line-height: 24px;
+	padding: 10px 0;
+}

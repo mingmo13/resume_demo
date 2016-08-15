@@ -1,0 +1,289 @@
+h1{
+	margin: 0;
+	padding: 12px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 24px;
+}
+p{
+
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0;
+	list-style: none;
+}
+.main{
+	background: #444 url(img/banner.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+
+header{
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+}
+nav{
+	height: 50px;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+nav a{
+	height: inherit;
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	padding: 0 10px;
+}
+nav .logo{
+	display: inline-block;
+	line-height: 50px;
+	height: 50px;
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding: 0 20px;
+}
+.active{
+	border-bottom: 2px solid #fff;
+}
+#banner{
+	background: transparent;
+	height: 700px;
+}
+.inner{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top:160px;
+}
+
+.sub_heading{
+	line-height: 30px;
+	font-size: 18px;
+	margin: 10px 0;
+}
+button{
+	border: none;
+	background: #63B8FF;
+	color: #eee;
+	padding: 10px;
+	border-radius: 6px;
+}
+#banner button{
+	padding: 14px 40px;
+}
+#banner .more{
+	margin-top: 260px;
+}
+/*==================正文部分=============*/
+.wraper{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.hr{
+	height: 2px;
+	width: 100%;
+	margin: 20px auto;
+}
+.green_section{
+	text-align: center;
+	background: #66CDAA;
+	color: #fff;
+	padding: 100px 0;
+}
+.green_section .hr{
+	background: #078495;
+	width: 60%;
+}
+.green_section .icon_group{
+	margin-top: 60px;
+}
+.green_section .icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: #76EEC6;
+	margin: 20px;
+	transform: rotate(45deg);
+}
+
+.gray_section{
+	background: #4682B4;
+}
+.gray_section .img_part{
+	width: 45%;
+}
+.gray_section .img_part img{
+	width: 100%;
+}
+.gray_section .text_part{
+	width: 55%;
+	position: relative;
+	top: 68px;
+	left: 50px;
+	color: #fff;
+}
+.article_pre > div{
+	float: left;
+	font-size: 0;
+}
+.clear::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.gray_section .article_pre:nth-child(2){
+	background: rgba(0,0,0,0.1);
+}
+.gray_section .article_pre:nth-child(3){
+	background: rgba(0,0,0,0.3);
+}
+.gray_section .text_part>*{
+	max-width: 90%;
+}
+.gray_section .text_part h2{
+	margin-bottom: 20px;
+}
+
+.purple_section{
+	background: #8968CD;
+	color: #fff;
+	padding: 80px;
+}
+.purple_section .head_part{
+	text-align: center;
+}
+.purple_section .hr{
+	background: #5D478B;
+	width: 60%;
+}
+.card_part{
+	margin: 0 auto;
+	width: 60%;
+}
+.card{
+	float: left;
+	width: 50%;
+	min-height: 240px;
+	padding: 50px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+}
+.card h3{
+	text-align: center;
+}
+.card:nth-child(1){
+	background: rgba(0,0,0,0.05);
+}
+.card:nth-child(2){
+	background: rgba(0,0,0,0.1);
+}
+.card:nth-child(3){
+	background: rgba(0,0,0,0.15);
+}
+.card:nth-child(4){
+	background: rgba(0,0,0,0.2);
+}
+.card:nth-child(5){
+	background: rgba(0,0,0,0.25);
+}
+.card:nth-child(6){
+	background: rgba(0,0,0,0.3);
+}
+footer{
+	background: #333;
+	color: #fff;
+	min-height: 120px;
+	text-align: center;
+	padding: 50px;
+}
+footer .share_part{
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+}
+.share_part li{
+	display: inline-block;
+	padding: 0 20px;
+}
+.share_part #call,.share_part #me{
+	color: #00BFFF;
+}
+
+.fa-qq:hover{
+	
+}
+.copyright{
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.mask{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.3);
+	display: none;
+}
+#sidebar{
+	width: 300px;
+	background: #333;
+	position: fixed;
+	top: 0;
+	right: -300px;
+	bottom: 0;
+	padding: 20px 0;
+	transition: right 0.5s;
+}
+#sidebar ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#sidebar ul a{
+	color: #fff;
+	width: 100%;
+	padding: 10px 30px;
+	display: inline-block;
+}
+#sidebar ul a:hover{
+	background: #555;
+}
+.backToTop{
+	position: fixed;
+	right: 30px;
+	bottom: 10px;
+	background: transparent;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
